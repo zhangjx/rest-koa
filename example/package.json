@@ -1,0 +1,27 @@
+{
+  "name": "open-rest-wrap-example",
+  "version": "0.1.0",
+  "description": "Rest server, based on open-rest.",
+  "main": "index.js",
+  "author": "zhangjx1990@gmail.com",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/_mocha"
+  },
+  "dependencies": {
+    "async": "2.1.2",
+    "debug": "2.3.0",
+    "lodash": "4.16.6",
+    "moment": "2.15.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.0",
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb-base": "^10.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "nodemon": "^1.10.2"
+  }
+}

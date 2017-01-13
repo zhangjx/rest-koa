@@ -1,0 +1,50 @@
+{
+  "name": "rest-koa",
+  "version": "0.7.1",
+  "description": "RESTful API server, based on koa.",
+  "main": "index.js",
+  "author": "zhangjx1990@gmail.com",
+  "license": "MIT",
+  "engines": {
+    "node": ">=7.0.0",
+    "npm": ">=3.0.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangjx/rest-koa.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "restapi",
+    "koa"
+  ],
+  "bugs": {
+    "url": "https://github.com/zhangjx/rest-koa/issues"
+  },
+  "homepage": "https://github.com/zhangjx/rest-koa",
+  "dependencies": {
+    "async": "2.1.2",
+    "debug": "2.3.0",
+    "include-all": "2.0.0",
+    "lodash": "4.16.6",
+    "mysql": "2.12.0",
+    "moment": "2.16.0",
+    "morgan": "1.7.0",
+    "open-rest-wrap-helpers": "0.5.0",
+    "open-rest-wrap-router": "0.3.0",
+    "restify": "4.3.0",
+    "sequelize": "3.25.0",
+    "winston": "2.3.0"
+  },
+  "devDependencies": {
+    "mocha": "3.2.0",
+    "eslint": "3.11.1",
+    "eslint-config-airbnb-base": "10.0.1",
+    "eslint-plugin-import": "2.2.0",
+    "nodemon": "1.11.0"
+  }
+}
